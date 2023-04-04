@@ -1,0 +1,62 @@
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+  color: #fff;
+  background-color: #44b7e0;
+  border-color: #64a5dd; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #0777e7;
+  border-color: #084cc9; /*set the color you want here*/
+}
+.btn-info {
+  color: #fff;
+  background-color: #eb6962;
+  border-color: #d3614a; /*set the color you want here*/
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #f8072c;
+  border-color: #a80606; /*set the color you want here*/
+}
+.headerTable{
+  color: #e7a763;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(183, 0, 255, 0);
+  /* background-color: red; */
+}
+
+.table-hover tbody tr:hover td {
+  color:  #f6f6ad;
+
+} 
+
+.btn-danger {
+  color: #fff;
+  background-color: #3a5cef;
+  border-color: #140330; /*set the color you want here*/
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open>.dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #1308ec;
+  border-color: #070124; /*set the color you want here*/
+}
